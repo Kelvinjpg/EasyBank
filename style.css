@@ -1,0 +1,128 @@
+body{
+    background-color: #fafafa;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand{
+    margin-left: 80px;
+}
+
+.btn-grad{
+    background-image: linear-gradient(to right, #B3FFAB 0%, #12FFF7  51%, #B3FFAB  100%);
+    margin: 5px;
+    padding: 5px 30px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 30px;
+    border: none;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+#navbarNav li a{
+    margin-right: 20px;
+    color: gray;
+}
+
+#navbarNav li a:hover{
+   
+}
+
+
+/*banner start*/
+.content-banner.container{
+    overflow: hidden;
+    width: 100%;
+    height: 186vh;
+    background-color: #f4f5f7;
+}
+.banner-container{
+    background-color: #fafafa;
+    height: 92vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+} 
+.banner-container .img{
+    flex: 1 1 450px;
+    height: 90vh;
+    background-image: url(bg-intro-desktop.svg);
+    background-position-y: -260px;
+    background-position-x: -30px;
+    
+}
+.banner-container .img img{
+    position: absolute;
+    right: -132px;
+}
+.banner-container .content{
+    flex:  1 1 250px;
+    margin-left: 135px;
+    padding-left: 8px;
+}
+.h1-items{
+    font-weight: 400;
+
+}
+.first-card-container{
+    margin: auto 10%;
+    margin-top: 10px;
+}
+.why-choose-container{
+    
+}
+.why-choose{
+    font-size: 30px;
+    font-weight: 350;
+
+    margin-left: 7%;
+    color: hsl(233, 26%, 24%);
+}
+.why-choose-p{
+    font-size: 19px;
+    font-weight: 300;
+    margin-left: 7%
+}
+.icon-content-container{
+    margin-top: 8%;
+    margin-left: 7%;
+    margin-right: 10%;
+}
+.icon-why-h1{
+    margin-top: 15%;
+}
+.icon-why-h1 h1{
+    font-size: 26px;
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
+}
+.icon-why{
+
+}
+   
+.icon-why-p{
+    margin-top: 10px;
+    width: 100%;
+}
+.icon-why-p p{
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(233, 8%, 62%);
+}
